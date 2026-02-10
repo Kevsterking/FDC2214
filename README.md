@@ -1,1 +1,1 @@
-Firmware for the TexasInstrument's FDC2214
+Firmware for the Texas Instrument FDC2214
