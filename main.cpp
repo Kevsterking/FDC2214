@@ -77,8 +77,10 @@ void setup() {
   digitalWrite(LED_BUILTIN, LOW);
   fdc.fdc.on_data = fdc_on_data;
   fdc_config();
+  _start();
 }
 
 void loop() {
   FDC2214_update(&fdc.fdc);
+  // if (should_exit) _stop();
 }
